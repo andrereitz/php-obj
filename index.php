@@ -1,8 +1,8 @@
 <?php
     require "Pessoa.php";
 
-    $uma_pessoa = new Pessoa;
-    $uma_pessoa->setName("Andre");
+    $person = new Pessoa;
+    $person->setName("Andre");
 
-    echo $uma_pessoa->getName();
+    echo $person->getName();
 ?>
