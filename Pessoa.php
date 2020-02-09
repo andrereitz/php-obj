@@ -1,14 +1,19 @@
 <?php
 class Pessoa{
     //public, private or protected
-    private $nome;
+    protected $name;
+    const SPECIES = "Human";
+
+    public function __construct($startName){
+        $this->name = $startName;
+    }
 
     public function setName($newName){
-        $this->nome = $newName;
+        $this->name = $newName;
     }
 
     public function getName(){
-        return $this->nome;
+        return $this->name;
     }
 }
 ?>
