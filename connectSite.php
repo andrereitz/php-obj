@@ -1,6 +1,6 @@
 <?php
 
-namespace website;
+namespace Website;
 
 function connect(){
     echo "connected to the website";
